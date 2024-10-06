@@ -1,6 +1,6 @@
 import MessageCard from "./MessageCard";
-import LocationSvg from "./svg/LocationSvg";
-import MailSvg from "./svg/MailSvg";
+import LocationSvg from "../../assets/svg/contact/LocationSvg";
+import MailSvg from "../../assets/svg/contact/MailSvg";
 
 export default function Contact() {
   return (

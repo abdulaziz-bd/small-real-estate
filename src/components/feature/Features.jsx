@@ -1,13 +1,16 @@
 import FeatureCard from "./FeatureCard";
-import SVG01 from "./svg/SVG01";
-import SVG02 from "./svg/SVG02";
-import SVG03 from "./svg/SVG03";
-import SVG04 from "./svg/SVG04";
+import SVG01 from "../../assets/svg/feature/SVG01";
+import SVG02 from "../../assets/svg/feature/SVG02";
+import SVG03 from "../../assets/svg/feature/SVG03";
+import SVG04 from "../../assets/svg/feature/SVG04";
 
 export default function Features() {
   return (
     <div>
-      <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
+      <section
+        id="features"
+        className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]"
+      >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">

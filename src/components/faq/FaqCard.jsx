@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import FaqQSvg from "./svg/FaqQSvg";
+import FaqQSvg from "../../assets/svg/faq/FaqQSvg";
 
 export default function FaqCard({ faq }) {
   const { question, answer } = faq;

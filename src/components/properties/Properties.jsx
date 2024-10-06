@@ -50,7 +50,7 @@ export default function Properties() {
   ];
 
   return (
-    <section>
+    <section id="properties">
       <div className="container">
         <div className="mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]">
           <span className="mb-2 block text-lg font-semibold text-primary">

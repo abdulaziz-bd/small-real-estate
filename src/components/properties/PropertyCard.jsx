@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
+import Bath from "../../assets/svg/properties/Bath";
+import Bed from "../../assets/svg/properties/Bed";
 import FormattedPrice from "./FormattedPrice";
-import Bath from "./svg/Bath";
-import Bed from "./svg/Bed";
 
 export default function PropertyCard({ property }) {
   const { imageSource, name, beds, baths, price } = property;
@@ -13,7 +13,8 @@ export default function PropertyCard({ property }) {
       <div className="p-6">
         <h4 className="text-2xl font-bold cursor-pointer">{name}</h4>
         <div className="mt-2">
-          <FormattedPrice amount={price} />{" "}
+          <FormattedPrice amount={price} />
+          {" /M"}
         </div>
       </div>
       <div className="flex justify-between p-4 text-gray-700 border-t border-gray-300">

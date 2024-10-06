@@ -1,6 +1,6 @@
+import LeftSvg from "../../assets/svg/cta/LeftSvg";
+import RightSvg from "../../assets/svg/cta/RightSvg";
 import Button from "../common/Button";
-import LeftSvg from "./svg/LeftSvg";
-import RightSvg from "./svg/RightSvg";
 
 export default function CTA() {
   return (
@@ -23,7 +23,7 @@ export default function CTA() {
                 </p>
 
                 <Button
-                  url="javascript:void(0)"
+                  url="#"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                   text="Let's have a meeting"
                 />

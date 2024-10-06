@@ -1,7 +1,7 @@
 import heroImage from "../../assets/images/hero/hero-image.png";
 import Button from "../common/Button";
-import BottomSvg from "./svg/BottomSvg";
-import TopSvg from "./svg/TopSvg";
+import BottomSvg from "../../assets/svg/hero/BottomSvg";
+import TopSvg from "../../assets/svg/hero/TopSvg";
 
 export default function Hero() {
   return (

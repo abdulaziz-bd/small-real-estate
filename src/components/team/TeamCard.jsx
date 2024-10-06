@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import FacebookIconSvg from "./svg/FacebookIconSvg";
-import InstagramIconSvg from "./svg/InstagramIconSvg";
-import ProfileVectorSvg from "./svg/ProfileVectorSvg";
-import TwitterIconSvg from "./svg/TwitterIconSvg";
+import FacebookIconSvg from "../../assets/svg/common/FacebookIconSvg";
+import InstagramIconSvg from "../../assets/svg/common/InstagramIconSvg";
+import TwitterIconSvg from "../../assets/svg/common/TwitterIconSvg";
+import ProfileVectorSvg from "../../assets/svg/team/ProfileVectorSvg";
 
 export default function TeamCard({ member }) {
   const { name, designation, image, social } = member;

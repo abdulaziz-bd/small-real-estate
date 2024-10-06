@@ -15,7 +15,7 @@ export default function FeatureCard({ title, description, SVG }) {
           {description}
         </p>
         <a
-          href="javascript:void(0)"
+          href="#"
           className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
         >
           Learn More

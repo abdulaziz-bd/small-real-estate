@@ -1,7 +1,11 @@
 import logoImage from "../../assets/images/logo/logo.svg";
 import Button from "../common/Button";
+import useWindowSize from "./Hook";
 
 export default function Navbar() {
+  const size = useWindowSize();
+  const isMobile = size.width < 640;
+
   return (
     <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent">
       <div className="container">
@@ -16,37 +20,41 @@ export default function Navbar() {
 
             <ul className="hidden lg:flex ">
               <li className="group relative">
-                <Button
-                  url="#home"
+                <a
+                  href="#home"
                   className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
-                  text="Home"
-                />
+                >
+                  Home
+                </a>
               </li>
               <li className="group relative">
-                <Button
-                  url="#about"
+                <a
+                  href="#about"
                   className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                  text="About"
-                />
+                >
+                  About
+                </a>
               </li>
               <li className="group relative">
-                <Button
-                  url="#pricing"
+                <a
+                  href="#properties"
                   className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                  text="Pricing"
-                />
+                >
+                  Pricing
+                </a>
               </li>
 
               <li className="group relative">
-                <Button
-                  url="blog-grids.html"
+                <a
+                  href="#footer"
                   className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                  text="Blog"
-                />
+                >
+                  Blog
+                </a>
               </li>
             </ul>
 
-            <div className="sm:flex">
+            <div className={`${isMobile ? "w-full" : ""} sm:flex`}>
               <Button
                 url="signin.html"
                 className="flex-1 loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
