@@ -14,7 +14,7 @@ This project is a **real estate website** designed to showcase property listings
 
 ## Demo
 
-Check out a live demo of the website [here](#). (Add the actual demo link)
+Check out a live demo of the website [here](#).
 
 ## Features
 
@@ -29,10 +29,10 @@ Check out a live demo of the website [here](#). (Add the actual demo link)
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **React** (if applicable)
+- **React**
 - **Tailwind CSS** for styling
 - **Git** for version control
-- **GitHub Pages** for hosting (or specify the hosting platform used)
+- **Vercel** for hosting
 
 ## Installation
 
